@@ -48,7 +48,7 @@ def get_jsonparsed_data(url):
 def get_df(active_ticker, category, include_period=True):
     url = f'https://financialmodelingprep.com/api/v3/{category}/{active_ticker}'
     url += '?period=quarter&' if include_period else '?'
-    url += 'apikey=b00c01b62714872e61fd7b466aba6f1d'
+    url += 'apikey=sample_api_key'
     data = get_jsonparsed_data(url)
     df = pd.DataFrame(data, index=[i for i in range(len(data))])
     return df
