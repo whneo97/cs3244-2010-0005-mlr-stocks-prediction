@@ -19,7 +19,7 @@ The LSTM model performed better than the traditional RNN and time series MLR in 
 
 
 # Summary
-This repository contains the source code used for data preprocessing, model training and testing. It focuses on the <b>Time-Series MLR</b> model, a less commonly used machine learning model for sequential time series data. The plots of the predicted against real stock prices are also included. 
+This repository contains the source code used for data preprocessing, model training and testing. It focuses on the <b>Time-Series MLR</b> model, a less commonly used machine learning model for the prediction of stock prices. The plots of the predicted against real stock prices are also included. 
 
 # Libraries
 * matplotlib, numpy, pandas, sklearn, statsmodels
